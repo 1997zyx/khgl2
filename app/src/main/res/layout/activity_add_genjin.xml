@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_bg"
+    android:orientation="vertical"
+    tools:context=".ui.activity.AddGenjinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/fanhui"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="6dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/fanhui"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/iv_fanhuo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="添加跟进"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:background="@drawable/bg_yuanjiao_12dp"
+                android:orientation="vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_s_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="跟进时间"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="15sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:ellipsize="end"
+                        android:maxEms="8"
+                        android:maxLines="1"
+                        android:text="请选择"
+                        android:textColor="@color/text_1b1b1b"
+
+                        android:textSize="14sp"></TextView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="下次跟进"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="15sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/newt_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="23dp"
+                        android:layout_toLeftOf="@+id/next_iv"
+                        android:ellipsize="end"
+                        android:maxEms="8"
+                        android:maxLines="1"
+                        android:text="请选择"
+                        android:textColor="@color/ffc9c9c9"
+                        android:textSize="14sp"></TextView>
+
+                    <ImageView
+
+                        android:id="@+id/next_iv"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/gengduo"></ImageView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_uphouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="上门时间"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="15sp"></TextView>
+
+                    <TextView
+
+                        android:id="@+id/tv_uphouse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="23dp"
+                        android:layout_toLeftOf="@+id/fangchan_iv"
+                        android:ellipsize="end"
+                        android:maxEms="8"
+                        android:maxLines="1"
+                        android:text="请选择"
+                        android:textColor="@color/ffc9c9c9"
+                        android:textSize="14sp"></TextView>
+
+                    <ImageView
+
+                        android:id="@+id/fangchan_iv"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/gengduo"></ImageView>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp">
+
+                <View
+                    android:layout_width="3.5dp"
+                    android:layout_height="15dp"
+                    android:background="#FF3D5AFE"></View>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="跟进情况"
+                    android:textColor="@color/text_1b1b1b"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="*"
+                    android:textColor="#FFE60012"
+                    android:textSize="17sp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="14dp"
+                android:background="@drawable/bg_yuanjiao_12dp"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <EditText
+                    android:maxLength="300"
+                    android:id="@+id/et_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="请描述客户跟进情况..."
+                    android:minLines="10"
+                    android:textColor="@color/text_1b1b1b"
+                    android:textSize="14sp"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="(300字以内)"
+                    android:textColor="@color/ffc9c9c9"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_genjin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:orientation="vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical"
+
+                    android:paddingRight="14dp">
+
+                    <View
+                        android:layout_width="3.5dp"
+                        android:layout_height="15dp"
+                        android:background="#FF3D5AFE"></View>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="上次跟进"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="17sp"></TextView>
+
+
+                </LinearLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_marginRight="70dp"
+                        android:layout_marginLeft="14dp"
+                        android:id="@+id/tv_copy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:lineSpacingExtra="3dp"
+
+                        android:textColor="@color/bg_434343"
+                        android:textSize="13sp"></TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/btn_copy"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:drawableLeft="@mipmap/edit_but_copy"
+                        android:drawablePadding="5dp"
+                        android:gravity="right"
+                        android:text="复制"
+                        android:textColor="#FF898989"
+                        android:textSize="13sp"></TextView>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/btn_bg_two"
+        android:text="确认"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"></Button>
+</RelativeLayout>

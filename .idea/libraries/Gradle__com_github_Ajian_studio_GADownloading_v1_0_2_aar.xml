@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Ajian-studio:GADownloading:v1.0.2@aar">
+    <CLASSES>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/f613e0aabc2fc93ddfb8310285e06758/GADownloading-v1.0.2/jars/classes.jar!/" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/f613e0aabc2fc93ddfb8310285e06758/GADownloading-v1.0.2/res" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/f613e0aabc2fc93ddfb8310285e06758/GADownloading-v1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="date_picker_bg">#FFFFFF</color>
+
+    <color name="date_picker_divider">#11112233</color>
+
+    <color name="date_picker_text_light">#59B29C</color>
+
+    <color name="date_picker_text_dark">#333333</color>
+
+    <color name="colorWhite">#fff</color>
+    <color name="background_bg">#EDEDED</color>
+    <color name="ededed">#EDEDED</color>
+    <color name="rb_text_true">#E85736</color>
+    <color name="rb_text_false">#959595</color>
+    <color name="text_959595">#959595</color>
+    <color name="text_1b1b1b">#1B1B1B</color>
+    <color name="bg_85736">#E85736</color>
+    <color name="bg_f8b551">#F8B551</color>
+    <color name="bg_fdf6eb">#FDF6EB</color>
+    <color name="bg_dcdcdc">#DCDCDC</color>
+    <color name="bg_535353">#535353</color>
+    <color name="bg_ffe6e0">#FFE6E0</color>
+    <color name="bg_434343">#434343</color>
+    <color name="bg_ffaaaaaa">#FFAAAAAA</color>
+    <color name="bg_fffba949">#FFFBA949</color>
+    <color name="bg_fffec76a">#FFFEC76A</color>
+    <color name="bg_ffa0a0a0">#FFA0A0A0</color>
+    <color name="bg_ffea6445">#FFEA6445</color>
+    <color name="bg_ffd5aa7e">#FFD5AA7E</color>
+    <color name="bg_ffe3ebfc">#FFE3EBFC</color>
+    <color name="bg_ffe9c799">#FFE9C799</color>
+    <color name="bg_vip_20242">#20242F</color>
+    <color name="bg_ffeaba7f">#FFEABA7F</color>
+    <color name="bg_ffe5e5e5">#FFE5E5E5</color>
+    <color name="ff215dff">#FF215DFF</color>
+    <color name="text3">#333333</color>
+    <color name="background"> #f5f5f5 </color>
+    <color name="bgblue">#00BFFF </color>
+    <color name="fff8B551">#FFF8B551 </color>
+    <color name="ffeeeeee">#FFEEEEEE </color>
+    <color name="ffff6900">#FFFF6900 </color>
+    <color name="ff13b5b1">#FF13B5B1 </color>
+    <color name="ffb5b5b5">#FFB5B5B5 </color>
+    <color name="ffaaa">#FFAAAAAA </color>
+    <color name="fffecd06">#FFFECD06 </color>
+    <color name="ff5287f0">#FF5287F0 </color>
+    <color name="ffeab51">#FFEA5B51 </color>
+    <color name="fffaf8f2">#fffaf8f2 </color>
+    <color name="ff7d7d7d">#FF7D7D7D</color>
+    <color name="fff39800">#FFF39800</color>
+    <color name="fff4f4f4">#fff4f4f4</color>
+    <color name="ff707070">#FF707070</color>
+    <color name="ffecf3f8">#FFECF3F8</color>
+    <color name="fff2f9ff">#fff2f9ff</color>
+    <color name="ff626262">#FF626262</color>
+    <color name="ffe60012">#FFE60012</color>
+    <color name="fe60012">#e60012</color>
+    <color name="aeafb5ff">#AEAFB5FF</color>
+    <color name="fff6d1c2">#FFF6D1C2</color>
+    <color name="ff4dccc0">#FF4DCCC0</color>
+    <color name="f215dff">#215dff</color>
+    <color name="ffc9c9c9">#FFC9C9C9</color>
+    <color name="ffe7effe">#FFE7EFFE</color>
+    <color name="ff00adb6">#ff00dab6</color>
+    <color name="ff2a70fd">#ff2a70fd</color>
+</resources>

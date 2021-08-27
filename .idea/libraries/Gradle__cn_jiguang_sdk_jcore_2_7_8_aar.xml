@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.jiguang.sdk:jcore:2.7.8@aar">
+    <CLASSES>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/b204df04937ada6a04782cd85fe7d658/jcore-2.7.8/jars/classes.jar!/" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/b204df04937ada6a04782cd85fe7d658/jcore-2.7.8/res" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/b204df04937ada6a04782cd85fe7d658/jcore-2.7.8/AndroidManifest.xml" />
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/b204df04937ada6a04782cd85fe7d658/jcore-2.7.8/jars/libs/jcore-android-2.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/cn.jiguang.sdk/jcore/2.7.8/6825ce24556563e3948f17bc6329b20bfec2fbec/jcore-2.7.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

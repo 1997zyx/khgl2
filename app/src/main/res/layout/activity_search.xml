@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_bg"
+    tools:context=".ui.activity.SearchActivity">
+
+    <RelativeLayout
+
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RelativeLayout
+
+            android:id="@+id/ll_shousuo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/bg_yuanjiao_12dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="14dp">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/fangdajing"></ImageView>
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_input_search"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@null"-->
+<!--                android:cursorVisible="true"-->
+<!--                android:hint="搜索职位"-->
+<!--                android:maxLength="65"-->
+<!--                android:singleLine="true"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textColorHint="#9666"-->
+<!--                android:textCursorDrawable="@drawable/shape_ea544a_null_0"-->
+<!--                android:textSize="12sp" />-->
+
+            <EditText
+                android:id="@+id/editview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="34dp"
+                android:background="@null"
+                android:hint="搜索适合您的信贷"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/ffb5b5b5"
+                android:textSize="11sp">
+            </EditText>
+
+            <ImageView
+                android:id="@+id/clear_iv"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@mipmap/release_delete_but"></ImageView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fanhui_tv"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/bg_85736"
+            android:textSize="13sp">
+
+        </TextView>
+
+    </RelativeLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smartrefresh"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:padding="14dp"
+            android:visibility="gone"
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

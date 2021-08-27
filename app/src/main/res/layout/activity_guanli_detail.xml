@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_bg"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#FF3D5AFE">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF3D5AFE"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+          >
+
+            <ImageView
+                android:id="@+id/fanhui"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="6dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/fanhui_two"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/iv_fanhuo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="客户信息"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+            <Button
+                android:id="@+id/hs_btn"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp"
+              android:paddingLeft="10dp"
+                android:drawableLeft="@mipmap/detail_icon_zhushou"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/guanli_huasu"
+                android:textSize="12sp"
+                android:textColor="@color/colorWhite"
+                android:text="话术助手"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"></Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_title">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/smartrefresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:paddingBottom="70dp"
+                    android:id="@+id/recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/zhiding_iv"
+            android:layout_marginRight="6.5dp"
+            android:layout_marginBottom="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/detail_but_nav"
+            android:layout_width="46dp"
+            android:layout_height="46dp"></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/detail_bg_one">
+
+            <LinearLayout
+
+                android:id="@+id/ll_bianji"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="8.5dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/detail_but_bianji"></ImageView>
+
+                <TextView
+                    android:layout_marginBottom="5.5dp"
+                    android:layout_marginTop="4.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="编辑信息"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/add_genjin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="8.5dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/detail_but_add"></ImageView>
+
+                <TextView
+                    android:layout_marginBottom="5.5dp"
+                    android:layout_marginTop="4.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加跟进"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="8.5dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/detail_but_phone"></ImageView>
+
+                <TextView
+                    android:layout_marginBottom="5.5dp"
+                    android:layout_marginTop="4.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="拨打电话"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

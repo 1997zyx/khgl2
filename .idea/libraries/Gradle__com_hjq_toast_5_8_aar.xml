@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:toast:5.8@aar">
+    <CLASSES>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/55919892346c1b074ce6ffc639085d7a/toast-5.8/jars/classes.jar!/" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/55919892346c1b074ce6ffc639085d7a/toast-5.8/res" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/55919892346c1b074ce6ffc639085d7a/toast-5.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.hjq/toast/5.8/73061872f8e112ebd34b5d698a050137fb38746c/toast-5.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.hjq/toast/5.8/ee0decedfd19bf854a7ad0f007107031be401084/toast-5.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

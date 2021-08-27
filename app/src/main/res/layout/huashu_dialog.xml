@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/title_rl"
+        android:paddingTop="20dp"
+        android:paddingLeft="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_centerVertical="true"
+            android:layout_width="3.5dp"
+            android:layout_height="15dp"
+            android:background="#FF3D5AFE"></View>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="话术助手"
+            android:textColor="@color/text_1b1b1b"
+            android:textSize="17sp"></TextView>
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/popup_but_off"
+            android:layout_width="40dp"
+            android:layout_height="40dp"></ImageView>
+    </RelativeLayout>
+    <TextView
+        android:textColor="@color/ffe60012"
+        android:textSize="13sp"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp"
+        android:text="您在致电客户时可借鉴使用以下话术"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:padding="14dp"
+        android:background="@drawable/guanli_fff3f4f8_bg"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+
+            android:text="您好，我是xx银行的信贷经理，现在我们正在推出xx贷款产品,最高可贷100万，您有兴趣了解一下么。"
+            android:gravity="top"
+            android:id="@+id/et_huaxhu"
+            android:textSize="13sp"
+            android:hint="请输入您的话术"
+            android:textColor="@color/text_1b1b1b"
+            android:background="@null"
+            android:minLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="12.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:id="@+id/btn_true"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg_two"
+            android:text="编辑话术"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"></Button>
+    </RelativeLayout>
+
+</LinearLayout>

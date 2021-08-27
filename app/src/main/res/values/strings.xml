@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAC客户管理</string>
+    <string name="item_home">首页</string>
+    <string name="item_product">产品</string>
+    <string name="item_find">发现</string>
+    <string name="item_mine">我的</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.SalaryActivity">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_bg">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fanhui"
+            android:padding="6dp"
+            android:src="@mipmap/fanhui_two"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </ImageView>
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="薪资管理"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></TextView>
+        <TextView
+            android:id="@+id/tv_date"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/time_more"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:textColor="@color/colorWhite"
+            android:text="2021-05"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></TextView>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

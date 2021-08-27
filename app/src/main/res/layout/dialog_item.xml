@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+   <LinearLayout
+       android:background="@drawable/bg_yuanjiao_fff_4dp"
+       android:orientation="vertical"
+       android:paddingTop="30dp"
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:textStyle="bold"
+           android:gravity="center"
+           android:textColor="@color/text_1b1b1b"
+           android:textSize="18sp"
+           android:text="温馨提示"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></TextView>
+       <TextView
+           android:id="@+id/title_tv"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:textColor="@color/text_959595"
+           android:text="您确定要t退出登录吗"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></TextView>
+       <View
+           android:layout_marginTop="20dp"
+           android:background="@color/background_bg"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"></View>
+       <LinearLayout
+
+           android:gravity="center"
+
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TextView
+               android:id="@+id/tv_false"
+              android:padding="10dp"
+               android:gravity="center"
+               android:textSize="16sp"
+               android:textColor="@color/text_959595"
+               android:text="取消"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"></TextView>
+           <View
+               android:background="@color/background_bg"
+               android:layout_width="1dp"
+               android:layout_height="match_parent"></View>
+           <TextView
+               android:id="@+id/tv_true"
+               android:padding="10dp"
+               android:gravity="center"
+               android:textSize="16sp"
+               android:textColor="@color/bgblue"
+               android:text="确定"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"></TextView>
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

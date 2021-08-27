@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <com.yhkhgl.top.utils.FlowLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#FFF3F4F8"
+        android:orientation="vertical"
+        android:id="@+id/ll_dengji_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.yhkhgl.top.utils.FlowLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:background="#FFF3F4F8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btn_clear"
+                android:textColor="#FF215DFF"
+                android:textSize="14sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="重置"
+                android:background="@drawable/btn_bg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btn_true"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="确认"
+                android:background="@drawable/btn_bg_two"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

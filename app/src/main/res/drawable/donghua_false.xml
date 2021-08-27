@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/jd18"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd17"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd16"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd15"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd14"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd13"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd12"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd11"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd10"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd9"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd8"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd7"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd6"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd5"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd4"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd3"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd2"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/jd1"
+        android:duration="50" />
+</animation-list>

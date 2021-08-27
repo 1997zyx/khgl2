@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义虚线View的属性-->
+    <declare-styleable name="DashView">
+        <attr name="dashWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="dashOrientation" format="integer" />
+    </declare-styleable>
+
+    <!--富文本编辑器的属性-->
+    <declare-styleable name="ColorPickerView">
+        <attr name="indicatorColor" format="color" /><!--指示点颜色-->
+        <attr name="indicatorEnable" format="boolean" /><!--是否启用指示点-->
+        <attr name="orientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 搜索框 -->
+    <declare-styleable name="SearchView">
+        <!-- 搜索框的文字 -->
+        <attr name="sv_text" format="string" />
+        <!-- 提示文字 -->
+        <attr name="sv_hint" format="string" />
+        <!-- 字体大小 -->
+        <attr name="sv_textSize" format="dimension" />
+        <!-- 是否隐藏搜索图标 -->
+        <attr name="sv_hideImg" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+    <!--自定义SelectorView的属性-->
+    <declare-styleable name="SelectorView">
+        <!-- 布局列数 -->
+        <attr name="column_num" format="integer" />
+        <!-- 布局边距 -->
+        <attr name="border_space" format="dimension" />
+        <!-- 列间隔 -->
+        <attr name="column_space" format="dimension" />
+        <!-- 行间隔 -->
+        <attr name="row_space" format="dimension" />
+    </declare-styleable>
+
+</resources>

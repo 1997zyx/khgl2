@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/background_bg"
+    android:layout_height="wrap_content">
+    <com.mcxtzhang.swipemenulib.SwipeMenuLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/item_view"
+            android:paddingRight="14dp"
+            android:paddingLeft="14dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/bg_yuanjiao_12dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="7dp"
+                        android:paddingLeft="7dp"
+                        android:background="@drawable/guanli_detail_item_text"
+                        android:textColor="#FF3D5AFE"
+                        android:text="最近跟进"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:id="@+id/tv_day"
+                        android:layout_marginBottom="8.5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/text_1b1b1b"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:text="09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_marginBottom="18dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF898989"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:text="2021-05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+                <View
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/bg_ffe5e5e5"
+                    android:layout_width="1dp"
+                    android:layout_height="21dp">
+
+                </View>
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:text="adsfasdf"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_1b1b1b"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/del_iv"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/set_up_delete_but2"
+                android:layout_width="33dp"
+                android:layout_height="33dp">
+            </ImageView>
+
+        </LinearLayout>
+    </com.mcxtzhang.swipemenulib.SwipeMenuLayout>
+
+
+</LinearLayout>

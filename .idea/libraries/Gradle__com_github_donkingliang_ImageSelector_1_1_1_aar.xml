@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.donkingliang:ImageSelector:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/72ea261fb9b1bfba23890bdb8fbb6a34/jetified-ImageSelector-1.1.1/jars/classes.jar!/" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/72ea261fb9b1bfba23890bdb8fbb6a34/jetified-ImageSelector-1.1.1/res" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/72ea261fb9b1bfba23890bdb8fbb6a34/jetified-ImageSelector-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.github.donkingliang/ImageSelector/1.1.1/eeb32da5cb49ae1499a101359d63d4eb958e0c4e/ImageSelector-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.github.donkingliang/ImageSelector/1.1.1/166c8c1520963d6279e7f9227727da24481d6374/ImageSelector-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

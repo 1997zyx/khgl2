@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ui.activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="47.5dp"
+        android:layout_height="42dp"
+        android:layout_gravity="right"
+         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27.5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="哈喽~"
+                android:textColor="#1B1B1B"
+                android:textSize="33dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建专属新账户"
+                android:textColor="#1B1B1B"
+                android:textSize="33dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="26.5dp"
+            android:layout_height="26.5dp"
+            android:layout_marginLeft="39.5dp"
+            android:layout_marginTop="26dp"
+            android:layout_toRightOf="@+id/ll_welcome"
+             />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="17dp"
+        android:text="智能客户管理专家~"
+        android:textColor="#959595"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="5.5dp"
+        android:layout_marginLeft="28.5dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/bg_yuanjiao_blue" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="22dp"
+        app:contentPadding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+            <ImageView
+                android:layout_width="18.5dp"
+                android:layout_height="18.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/denglu_phone" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入您的手机号"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="22dp"
+        app:contentPadding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="18.5dp"
+                android:layout_height="18.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/denglu_password" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请设置密码"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_password"
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/item_password"
+                android:button="@null"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="22dp"
+        app:contentPadding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="18.5dp"
+                android:layout_height="18.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/denglu_password" />
+
+            <EditText
+                android:id="@+id/et_password_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请再次设置密码"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_password_two"
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/item_password"
+                android:button="@null"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="22dp"
+        app:contentPadding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          >
+            <ImageView
+                android:layout_width="18.5dp"
+                android:layout_height="18.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/login_icon_yaoshi" />
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+
+                android:hint="请输入短信验证码"
+                android:inputType="number"
+                android:maxLength="4"
+                android:minWidth="110dp"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="14dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="48dp"
+                    android:background="#FFE5E5E5"></View>
+
+                <TextView
+                    android:id="@+id/send_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:text="获取验证码"
+                    android:textColor="#FF2F68F5"
+                    android:textSize="12sp"></TextView>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="返回登录"
+            android:textColor="#1B1B1B"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:background="@mipmap/login_bg_but"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="60dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/login_img_hrzpvi"></ImageView>
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="汇融智配账号可直接登录"
+                android:textColor="@color/bg_535353"
+                android:textSize="11sp"></TextView>
+        </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="17dp"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true">
+
+                <CheckBox
+
+                    android:checked="true"
+
+                    android:button="@null"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/login_checkbox"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp">
+
+                </CheckBox>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="登录即代表阅读并同意"
+                    android:textColor="#535353"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/xieyi_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="《用户协议和隐私政策》"
+                    android:textColor="#FF2F68F5"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@mipmap/denglu_bg_three" />
+
+
+    </RelativeLayout>
+</LinearLayout>

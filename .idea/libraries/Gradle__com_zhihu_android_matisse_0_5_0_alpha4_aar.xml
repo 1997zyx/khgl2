@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zhihu.android:matisse:0.5.0-alpha4@aar">
+    <ANNOTATIONS>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/5f6342f822f63f88abfdc4b1630070c6/jetified-matisse-0.5.0-alpha4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://D:/Sdk/caches/transforms-2/files-2.1/5f6342f822f63f88abfdc4b1630070c6/jetified-matisse-0.5.0-alpha4/jars/classes.jar!/" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/5f6342f822f63f88abfdc4b1630070c6/jetified-matisse-0.5.0-alpha4/res" />
+      <root url="file://D:/Sdk/caches/transforms-2/files-2.1/5f6342f822f63f88abfdc4b1630070c6/jetified-matisse-0.5.0-alpha4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.zhihu.android/matisse/0.5.0-alpha4/c0ebf419db9db9359c0616bbd70d7d4429bcd490/matisse-0.5.0-alpha4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Sdk/caches/modules-2/files-2.1/com.zhihu.android/matisse/0.5.0-alpha4/f72e62bccabf106d3554c1bf54a07813204d29ee/matisse-0.5.0-alpha4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
